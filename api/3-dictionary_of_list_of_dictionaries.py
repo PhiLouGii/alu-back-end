@@ -16,7 +16,7 @@ if __name__ == "__main__":
     todos = requests.get(todos_url).json()
     users = requests.get(user_url).json()
 
-    users_list =[]
+    users_list = []
     for user in users:
         users_list.append((user.get('id'), user.get('username')))
 
