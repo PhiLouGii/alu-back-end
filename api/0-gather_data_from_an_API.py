@@ -21,8 +21,8 @@ if __name__ == "__main__":
 
     item_2 = result_2.get('name')
 
-    count=0
-    count_2 - 0
+    count = 0
+    count_2 = 0
 
     for item in result:
         if item.get('userId') == int(sys.argv[1]):
@@ -33,5 +33,5 @@ if __name__ == "__main__":
                                                           count, count_2))
 
     for item in result:
-        if item.get('completed') and item.get('userId) == int(sys.argv[1]):
+        if item.get('completed') and item.get('userId') == int(sys.argv[1]):
             print("\t {}".format(item['title']))
